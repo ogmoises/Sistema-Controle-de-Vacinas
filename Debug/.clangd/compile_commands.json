@@ -1,0 +1,52 @@
+[
+   {
+      "directory" : "C:/Users/moise/workspace_ccstheia/PF/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2050/ccs/ccs_base/msp430/include\" -I\"C:/Users/moise/workspace_ccstheia/PF\" -I\"C:/ti/ccs2050/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -I\"C:/Users/moise/workspace_ccstheia/PF/utils\" -I\"C:/Users/moise/workspace_ccstheia/PF/app\" -I\"C:/Users/moise/workspace_ccstheia/PF/src\" -D__MSP430F5529__ -xc",
+      "file"      : "C:/Users/moise/workspace_ccstheia/PF/main.c"
+   },
+   {
+      "directory" : "C:/Users/moise/workspace_ccstheia/PF/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2050/ccs/ccs_base/msp430/include\" -I\"C:/Users/moise/workspace_ccstheia/PF\" -I\"C:/ti/ccs2050/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -I\"C:/Users/moise/workspace_ccstheia/PF/utils\" -I\"C:/Users/moise/workspace_ccstheia/PF/app\" -I\"C:/Users/moise/workspace_ccstheia/PF/src\" -D__MSP430F5529__ -xc",
+      "file"      : "C:/Users/moise/workspace_ccstheia/PF/src/adc.c"
+   },
+   {
+      "directory" : "C:/Users/moise/workspace_ccstheia/PF/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2050/ccs/ccs_base/msp430/include\" -I\"C:/Users/moise/workspace_ccstheia/PF\" -I\"C:/ti/ccs2050/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -I\"C:/Users/moise/workspace_ccstheia/PF/utils\" -I\"C:/Users/moise/workspace_ccstheia/PF/app\" -I\"C:/Users/moise/workspace_ccstheia/PF/src\" -D__MSP430F5529__ -xc",
+      "file"      : "C:/Users/moise/workspace_ccstheia/PF/src/button.c"
+   },
+   {
+      "directory" : "C:/Users/moise/workspace_ccstheia/PF/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2050/ccs/ccs_base/msp430/include\" -I\"C:/Users/moise/workspace_ccstheia/PF\" -I\"C:/ti/ccs2050/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -I\"C:/Users/moise/workspace_ccstheia/PF/utils\" -I\"C:/Users/moise/workspace_ccstheia/PF/app\" -I\"C:/Users/moise/workspace_ccstheia/PF/src\" -D__MSP430F5529__ -xc",
+      "file"      : "C:/Users/moise/workspace_ccstheia/PF/src/dht11.c"
+   },
+   {
+      "directory" : "C:/Users/moise/workspace_ccstheia/PF/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2050/ccs/ccs_base/msp430/include\" -I\"C:/Users/moise/workspace_ccstheia/PF\" -I\"C:/ti/ccs2050/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -I\"C:/Users/moise/workspace_ccstheia/PF/utils\" -I\"C:/Users/moise/workspace_ccstheia/PF/app\" -I\"C:/Users/moise/workspace_ccstheia/PF/src\" -D__MSP430F5529__ -xc",
+      "file"      : "C:/Users/moise/workspace_ccstheia/PF/src/lcd.c"
+   },
+   {
+      "directory" : "C:/Users/moise/workspace_ccstheia/PF/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2050/ccs/ccs_base/msp430/include\" -I\"C:/Users/moise/workspace_ccstheia/PF\" -I\"C:/ti/ccs2050/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -I\"C:/Users/moise/workspace_ccstheia/PF/utils\" -I\"C:/Users/moise/workspace_ccstheia/PF/app\" -I\"C:/Users/moise/workspace_ccstheia/PF/src\" -D__MSP430F5529__ -xc",
+      "file"      : "C:/Users/moise/workspace_ccstheia/PF/src/pwm.c"
+   },
+   {
+      "directory" : "C:/Users/moise/workspace_ccstheia/PF/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2050/ccs/ccs_base/msp430/include\" -I\"C:/Users/moise/workspace_ccstheia/PF\" -I\"C:/ti/ccs2050/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -I\"C:/Users/moise/workspace_ccstheia/PF/utils\" -I\"C:/Users/moise/workspace_ccstheia/PF/app\" -I\"C:/Users/moise/workspace_ccstheia/PF/src\" -D__MSP430F5529__ -xc",
+      "file"      : "C:/Users/moise/workspace_ccstheia/PF/src/buzzer.c"
+   },
+   {
+      "directory" : "C:/Users/moise/workspace_ccstheia/PF/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2050/ccs/ccs_base/msp430/include\" -I\"C:/Users/moise/workspace_ccstheia/PF\" -I\"C:/ti/ccs2050/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -I\"C:/Users/moise/workspace_ccstheia/PF/utils\" -I\"C:/Users/moise/workspace_ccstheia/PF/app\" -I\"C:/Users/moise/workspace_ccstheia/PF/src\" -D__MSP430F5529__ -xc",
+      "file"      : "C:/Users/moise/workspace_ccstheia/PF/app/leds.c"
+   },
+   {
+      "directory" : "C:/Users/moise/workspace_ccstheia/PF/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2050/ccs/ccs_base/msp430/include\" -I\"C:/Users/moise/workspace_ccstheia/PF\" -I\"C:/ti/ccs2050/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -I\"C:/Users/moise/workspace_ccstheia/PF/utils\" -I\"C:/Users/moise/workspace_ccstheia/PF/app\" -I\"C:/Users/moise/workspace_ccstheia/PF/src\" -D__MSP430F5529__ -xc",
+      "file"      : "C:/Users/moise/workspace_ccstheia/PF/app/interface.c"
+   },
+   {
+      "directory" : "C:/Users/moise/workspace_ccstheia/PF/Debug",
+      "command"   : "clang++ -I\"C:/ti/ccs2050/ccs/ccs_base/msp430/include\" -I\"C:/Users/moise/workspace_ccstheia/PF\" -I\"C:/ti/ccs2050/ccs/tools/compiler/ti-cgt-msp430_21.6.1.LTS/include\" -I\"C:/Users/moise/workspace_ccstheia/PF/utils\" -I\"C:/Users/moise/workspace_ccstheia/PF/app\" -I\"C:/Users/moise/workspace_ccstheia/PF/src\" -D__MSP430F5529__ -xc",
+      "file"      : "C:/Users/moise/workspace_ccstheia/PF/utils/utils.c"
+   }
+]
