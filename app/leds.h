@@ -12,20 +12,20 @@
 #define LEDS_OUT P2OUT
 
 // CALIBRAÇÃO DOS ATUADORES A PARTIR DESSES VALORES
-#define TEMP_MIN             100 // Temperatura Baixa
-#define TEMP_MIN_DESLIGA     110 // Um pouco acima de TEMP_MIN
-#define TEMP_MAX             200 // Temperatura Alta
-#define TEMP_MAX_DESLIGA     190 // Um pouco abaixo de TEMP_MAX
-#define TEMP_CRITICA         250 // Temperatura em que ligamos o buzzer e ativamos 100% da ventoinha
-#define TEMP_CRITICA_DESLIGA 240 // Um pouco abaixo de TEMP_CRITICA
+#define TEMP_MIN             135 // Temperatura Baixa
+#define TEMP_MIN_DESLIGA     140 // Um pouco acima de TEMP_MIN
+#define TEMP_MAX             180 // Temperatura Alta
+#define TEMP_MAX_DESLIGA     175 // Um pouco abaixo de TEMP_MAX
+#define TEMP_CRITICA         230 // Temperatura em que ligamos o buzzer e ativamos 100% da ventoinha
+#define TEMP_CRITICA_DESLIGA 220 // Um pouco abaixo de TEMP_CRITICA
 
-#define LUZ_MAX          45  // Luminosidade Alta
-#define LUZ_MAX_DESLIGA  40 // Um pouco abaixo de LUZ_MAX
+#define LUZ_MAX          35  // Luminosidade Alta
+#define LUZ_MAX_DESLIGA  30 // Um pouco abaixo de LUZ_MAX
 
-#define UMID_MIN         45 // Umidade Baixa
-#define UMID_MIN_DESLIGA 50 // Um pouco acima de UMID_MIN_DESLIGA
-#define UMID_MAX         70 // Umidade Alta
-#define UMID_MAX_DESLIGA 65 // Um pouco abaixo de UMID_MAX
+#define UMID_MIN         50 // Umidade Baixa
+#define UMID_MIN_DESLIGA 55 // Um pouco acima de UMID_MIN_DESLIGA
+#define UMID_MAX         75 // Umidade Alta
+#define UMID_MAX_DESLIGA 70 // Um pouco abaixo de UMID_MAX
 
 // Protótipos das funções
 void ledsInit(void);
