@@ -25,12 +25,12 @@ O software foi modelado de forma não bloqueante sob a estrutura de um *superloo
 
 1. **Filtro Digital de Média Móvel:** As leituras analógicas do sensor LM35 passam por um filtro circular de 64 amostras para eliminar ruídos de alta frequência induzidos pelo chaveamento magnético do motor elétrico, otimizado via deslocamento de bits à direita (`soma >> 6`).
 2. **Máquina de Estados Térmica com Histerese:**
-   - **Zona Fria ($T < 14,0\,\text{°C}$):** Ventoinha desligada ($0\,\%$ PWM) para evitar o congelamento das vacinas. O retorno para a zona ideal possui recuo por histerese em $14,0\,\text{°C}$.
-   - **Zona Normal ($14,0\,\text{°C} \le T \le 18,0\,\text{°C}$):** Ventoinha fixada em $20\,\%$ de exaustão contínua para homogeneização do ar interno.
-   - **Zona de Aquecimento ($18,0\,\text{°C} < T < 23,0\,\text{°C}$):** Aceleração linear proporcional do ciclo de trabalho (duty cycle) do PWM entre $20\,\%$ e $100\,\%$. O recuo de retorno obedece à histerese em $17,5\,\text{°C}$.
-   - **Zona Crítica ($T \ge 23,0\,\text{°C}$):** Ventoinha em saturação máxima de potência ($100\,\%$ PWM). O alarme sonoro desarma apenas ao recuar abaixo de $22,0\,\text{°C}$.
+   - **Zona Fria (T < 14,0°C):** Ventoinha desligada ($0%$ PWM) para evitar o congelamento das vacinas. O retorno para a zona ideal possui recuo por histerese em $14,0\,\text{°C}$.
+   - **Zona Normal ($14,0°C \le T \le 18,0°C$):** Ventoinha fixada em $20%$ de exaustão contínua para homogeneização do ar interno.
+   - **Zona de Aquecimento (18,0°C < T < 23,0°C):** Aceleração linear proporcional do ciclo de trabalho (duty cycle) do PWM entre $20%$ e $100%$. O recuo de retorno obedece à histerese em $17,5°C.
+   - **Zona Crítica ($T \ge 23,0°C$):** Ventoinha em saturação máxima de potência (100% PWM). O alarme sonoro desarma apenas ao recuar abaixo de $22,0°C.
 3. **Janela de Confirmação contra Transientes (Debounce Temporal):** Os alarmes acústicos do Buzzer (gerenciados pelo `Timer A1` com clock secundário `ACLK`) incorporam um atraso de validação de $5\,\text{segundos}$ contínuos, prevenindo falsos positivos causados por oscilações térmicas ou feixes rápidos de luz na abertura de portas.
-4. **Histerese Higrométrica Dupla:** O monitoramento do DHT11 possui duas zonas mortas de amortecimento independentes: acionamento por baixa umidade em $50\,\%$ com retorno em $55\,\%$, e violação por alta umidade em $75\,\%$ com retorno em $70\,\%$.
+4. **Histerese Higrométrica Dupla:** O monitoramento do DHT11 possui duas zonas mortas de amortecimento independentes: acionamento por baixa umidade em $50%$ com retorno em $55%$, e violação por alta umidade em $75%$ com retorno em $70%$.
 
 ---
 
