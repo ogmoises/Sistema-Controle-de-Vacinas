@@ -1,0 +1,10 @@
+# Pastas locais do Code Composer Studio / Eclipse
+Debug/
+Release/
+.settings/
+targetConfigs/
+
+# Arquivos de configuração ocultos e temporários do SO
+.clangd/
+.DS_Store
+Thumbs.db
